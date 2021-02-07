@@ -12,7 +12,7 @@
         btn.click();
     }
 
-    const status = document.querySelector('body .Surface .Success h2');
+    const status = document.querySelector('body .Success h2');
     if (!status || status.innerText.trim() != "Success!") {
         console.debug('Approval failed');
         return
